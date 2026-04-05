@@ -1,19 +1,11 @@
-/*
-  Переменные для вашего проекта
-  и их переопределение под различные устройства
-*/
-
 :root {
-    --bg-color: #000028;
-    --text-color: #f1b2ce;
-    --accent-color: #ff0070;
-    --title-color: #db00ff;
-
-    --section-title-color: #ff0070;
-    --subtitle-color: #000028;
-
-    --button-color: #ff0070;
-    --button-hover: rgba(255, 0, 112, 0.4);
-
-    --bg-image: url('../images/cover-image-dark.png');
+  --header-background-image: url('../images/cover-image-dark.png');
+  --accent-color: #FF0070;
+  --border-color: #FF0070;
+  --page-background-color: #000028;
+  --header-title-color: #DB00FF;
+  --section-header-color: #FF0070;
+  --subtitles-text-color: #000028;
+  --section-paragraph-text-color: #F1B2CE;
+  --footer-text-shadow: #FF0070;
 }
