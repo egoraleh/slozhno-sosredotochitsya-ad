@@ -5,36 +5,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Сложно сосредоточиться</title>
+    <link rel="stylesheet" href="./styles/globals.css" />
+    <link rel="stylesheet" href="./styles/variables.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/dark.css" />
+    <link rel="stylesheet" href="./styles/light.css" />
     <script src="./scripts/script.js"></script>
   </head>
   <body class="page">
     <header class="header decorated-zone">
       <nav class="header__theme-menu">
         <ul class="header__theme-menu-list">
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_light"
-            >
+          <li>
+            <button class="header__theme-menu-button header__theme-menu-button_type_light">
               День
             </button>
           </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto"
-              disabled
-            >
+          <li>
+            <button class="header__theme-menu-button header__theme-menu-button_active header__theme-menu-button_type_auto" disabled>
               Авто
             </button>
           </li>
-          <li class="header__theme-menu-item">
-            <button
-              class="header__theme-menu-button header__theme-menu-button_type_dark"
-            >
+          <li>
+            <button class="header__theme-menu-button header__theme-menu-button_type_dark">
               Неон
             </button>
           </li>
         </ul>
       </nav>
+
+      <h1 class="header__title">no focus</h1>
+
+      <p class="header__subtitle">
+        Почему сосредоточиться так сложно
+      </p>
     </header>
+
+    <main class="content">
+      <section class="section">
+        <h2 class="section__title">Почему</h2>
+        <div class="section__content">
+          <p>Мозг любит быстрые награды...</p>
+        </div>
+      </section>
+
+      <section class="section">
+        <h2 class="section__title">Что делать</h2>
+        <div class="section__content">
+          <p>Ограничить отвлекающие факторы...</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer decorated-zone">
+      <h2 class="footer__title">focus</h2>
+    </footer>
   </body>
 </html>
